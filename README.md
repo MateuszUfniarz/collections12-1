@@ -22,6 +22,14 @@ posortowanych kolekcji
 uporządkowancy. Wykorzystywany jest naturalny porządek obiektów (compareTo)
 lub można wskazać Comparator. Implementacjami są TreeSet i TreeMap.
 
+## Napisać operacje wykorzystującą różne implementacje Set i sprawdzić różnice w operacjach dodawania do zbioru
+
+* Napisać program, w którym do zbioru zostanie dodanych kilka wyrazów, a następnie wyświetlona zostanie zawartość zbioru (for-each)
+* Sprawdzić różnice pomiędzy HashSet, TreeSet, LinkedHashSet
+* HashSet nie ma gwarancji odnośnie porządku
+* TreeSet drzewo przechowuje elementy zgodnie z wartością
+* LinkedHashSet przechowuje elementy zgodnie z kolejnością wstawiania
+
 ## Implementacje interfejsu List – złożoność operacji
 
 * Klasa ArrayList wykorzystuje wewnętrznie implementację tablicową
@@ -34,7 +42,5 @@ elementu na początek listy, usuwanie elementu z początku listy
 
 * Zaimplementować metody: dodawanie n elementów na początek listy, usuwanie n elementów z początku listy, odczytywanie wszystkich n elementów listy, metody przyjmują parametr typu List<Integer>
 * Porównać czas wykonania powyższych metod dla LinkedList i ArrayList
-
-## Napisać operacje wykorzystującą różne implementacje Set i sprawdzić różnice w operacjach dodawania do zbioru
 
 ## Do których kolekcji można wstawiać wartości null?
